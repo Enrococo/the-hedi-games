@@ -1,0 +1,20 @@
+h3{
+    width: 300px;
+    background-color: #ae3111;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgb(37, 95, 75);
+}
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 300px;
+    height: 400px;
+}
