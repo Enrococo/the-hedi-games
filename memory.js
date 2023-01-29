@@ -105,7 +105,7 @@ function flipCard() {
     cardsChosenId.push(cardId);
     this.setAttribute('src', cardArray[cardId].image);
     if (cardsChosen.length==2){
-        setTimeout(checkForMatch, 200);
+        setTimeout(checkForMatch, 350);
     }
 }
 
